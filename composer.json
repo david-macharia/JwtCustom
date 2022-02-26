@@ -9,7 +9,7 @@
         "firebase/php-jwt": "^6.0",
         "fruitcake/laravel-cors": "^2.0",
         
-        "laravel/framework": "^8.75"
+        "laravel/framework": "^8.0.0"
        
         
     },
