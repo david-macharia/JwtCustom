@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
-    "type": "project",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "david-macharia/custom_jwt",
+    "type": "jwt",
+    "description": "A Custom jwt",
+    "keywords": ["Jwt", "Custom"],
     "license": "MIT",
     "require": {
         "php": "^7.3|^8.0",
