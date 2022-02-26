@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\JwtUserController;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\CheckJwtPresence;
 use App\Http\Middleware\CheckRefreshJwtPresence;
@@ -22,5 +23,5 @@ use Illuminate\Support\Facades\Route;
 
 // });
 
-Route::post("/refreshToken",[UserController::class,'refreshToken'])->middleware('refreshJwt');
+Route::post("/refreshToken",[JwtUserController::class,'refreshToken'])->middleware('refreshJwt');
 // Route::post("/login",[UserController::class,'login']);

@@ -6,7 +6,7 @@ use App\Http\Requests\JwtAuntenticableRequest;
 use App\Http\Tools\CreateJwt;
 use Illuminate\Http\Request;
 
-class UserController extends Controller
+class JwtUserController extends Controller
 {
     use CreateJwt;
     public  $claims =  [
